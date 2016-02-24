@@ -22,5 +22,13 @@ namespace KataTest
             var itemsSorted = srv.RotateByPivot(items, 0);
             Assert.NotNull(itemsSorted);
         }
+
+        [Fact]
+        public void RotateByPivotLenghtTest()
+        {
+            var items = new int[] { };
+            var itemsSorted = srv.RotateByPivot(items, 0);
+            Assert.Equal(items.Length, itemsSorted.Length);
+        }
     }
 }

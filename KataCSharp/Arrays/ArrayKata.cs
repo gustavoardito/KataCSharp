@@ -9,7 +9,7 @@ namespace KataCSharp.Arrays
     public class ArrayKata
     {
         public int[] RotateByPivot(int[] items, int pivotIndex) {
-            return null;
+            return items;
         }
     }
 }
